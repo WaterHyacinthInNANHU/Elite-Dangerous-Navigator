@@ -1,0 +1,79 @@
+{
+  "Controller": {
+    "window_name": "Elite - Dangerous (CLIENT)",
+    "APP_ID": "18792693",
+    "API_KEY": "8g9IrnI7rALgBs7B6sY9pffL",
+    "SECRET_KEY": "oVT3cD5Hu840TgI6mWswbBoZrmCDKqFi"
+  },
+  "CompassReader": {
+    "get_compass": {
+      "bia": 100,
+      "filter_threshold": [
+        255,
+        152,
+        85
+      ],
+      "center_bia_x": 37,
+      "center_bia_y": 37
+    },
+    "get_navpoint_back": {
+      "bia": 100,
+      "filter_threshold": [
+        179,
+        223,
+        253
+      ],
+      "center_bia_x": 5,
+      "center_bia_y": 7
+    },
+    "get_navpoint_front": {
+      "bia": 100,
+      "filter_threshold": [
+        179,
+        223,
+        253
+      ],
+      "center_bia_x": 5,
+      "center_bia_y": 7
+    },
+    "templates": {
+      "compass": "/templates/compass.jpg",
+      "navpoint_back": "/templates/navpoint_back.jpg",
+      "navpoint_front": "/templates/navpoint_front.jpg"
+    },
+    "read_compass": {
+      "region_start": [
+        580,
+        700,
+        880,
+        1000
+      ],
+      "track_range": [
+        75,
+        75,
+        50,
+        50
+      ],
+      "show": "True"
+    }
+  },
+
+  "Operator": {
+    "center_of_screen": [
+      960,
+      540
+    ],
+    "service_sleep_interval": 1,
+    "align_terminate_error_by_pixel": 7,
+    "pid_x": {
+      "p": 20,
+      "i": 0,
+      "d": 0
+    },
+    "pid_y": {
+      "p": 5,
+      "i": 0,
+      "d": 0
+    }
+  }
+}
